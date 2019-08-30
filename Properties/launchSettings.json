@@ -1,0 +1,10 @@
+﻿{
+  "profiles": {
+    "net_core_3_linux_systemd": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
