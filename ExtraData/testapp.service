@@ -1,0 +1,9 @@
+[Unit]
+Description=my test app
+
+[Service]
+Type=notify
+ExecStart=/usr/sbin/testapp/net-core-3-linux-systemd
+
+[Install]
+WantedBy=multi-user.target
